@@ -1,10 +1,10 @@
-import { EvolutionSpPage } from './app.po';
+import { MyAppPage } from './app.po';
 
-describe('evolution-sp App', function() {
-  let page: EvolutionSpPage;
+describe('my-app App', function() {
+  let page: MyAppPage;
 
   beforeEach(() => {
-    page = new EvolutionSpPage();
+    page = new MyAppPage();
   });
 
   it('should display message saying app works', () => {

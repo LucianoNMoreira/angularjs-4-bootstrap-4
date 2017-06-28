@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class EvolutionSpPage {
+export class MyAppPage {
   navigateTo() {
     return browser.get('/');
   }
